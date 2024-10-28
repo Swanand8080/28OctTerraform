@@ -14,11 +14,12 @@ terraform {
 }
 }
 
+/*
 variable "env" {
 description = "Enter the envrionment to choose prod or dev"
 type = string
 }
-
+*/
 provider "aws" {
         region  = "us-east-1"
 }
